@@ -1,0 +1,22 @@
+div{
+  background-image:url(img/fonsgris.gif);
+  background-repeat: no-repeat;
+}
+.torna{
+  height: 60px;
+  width: 60px;
+  background-color: #6c3;
+  position: fixed;
+  text-align: center;
+  right: 60px;
+  bottom: 60px;
+  border-radius: 100px;
+  font-size: 60px;
+  color: white;
+  box-shadow: 0px 0px 10px black;
+}
+#contenidor{
+  background-image: none;
+  width: 675px;
+  margin: 0 auto;
+}
