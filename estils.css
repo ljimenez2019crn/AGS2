@@ -6,7 +6,6 @@ margin: 0 auto;
 padding: 10px;
 }
 li{
-  background-color: green;
   display: block;
   margin: 10px;
   width: 200px;
@@ -16,9 +15,20 @@ li{
   border-radius: 10px;
   box-shadow: 5px 5px 10px;
 }
+li:hover{
+  background-color: yellowgreen;
+  border-radius: 10px;
+}
 a {
   height: 200px;
   display: block;
+}
+a:hover{
+  background-color: yellowgreen;
+  border-radius: 10px;
+}
+div{
+  background-color: lightblue;
 }
 .anulador{
   clear: both;
