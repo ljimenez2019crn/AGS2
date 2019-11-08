@@ -1,0 +1,34 @@
+
+/*móbil vertical*/
+@media screen and (max-width:640px) and (orientation: portrait){
+  body{
+    background-color: green;
+  }
+}
+
+/*móbil apaisat*/
+@media screen and (max-width:640px) and (orientation: landscape){
+  body{
+    background-color: yellowgreen;
+  }
+}
+/*tablet vertical*/
+@media screen and (min-width:641px) and (max-width:1200px) and (orientation: portrait){
+  body{
+    background-color: red;
+  }
+}
+
+/*tablet apaisat*/
+@media screen and (min-width:641px) and (max-width:1200px) and (orientation: landscape){
+  body{
+    background-color: yellow;
+  }
+}
+
+/*escriptori*/
+@media screen and (min-width:1201px){
+  body{
+    background-color: pink;
+  }
+}
