@@ -13,6 +13,8 @@ li{
   height: 200px;
   float: left;
   font-family: helvetica;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
 }
 a {
   height: 200px;
