@@ -13,7 +13,6 @@ li{
   height: 200px;
   float: left;
   font-family: helvetica;
-  background-size: 100%;
 }
 a {
   height: 200px;
@@ -24,13 +23,21 @@ a {
 }
 #a01{
   background-image:url(img/a01.png);
+  background-size: 100%;
 }
 #a02{
   background-image:url(img/a02.png);
+  background-size: 100%;
 }
 #a03{
   background-image:url(img/a03.png);
+  background-size: 100%;
 }
 #a04{
   background-image:url(img/a04.png);
+  background-size: 100%;
+}
+#a05{
+  background-image:url(img/a05.png);
+  background-size: 100%;
 }
