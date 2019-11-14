@@ -1,3 +1,6 @@
+body{
+  background-color: lightblue;
+}
 ul{
 width: 880px;
 
@@ -15,20 +18,13 @@ li{
   border-radius: 10px;
   box-shadow: 5px 5px 10px;
 }
-li:hover{
-  background-color: yellowgreen;
-  border-radius: 10px;
-}
 a {
   height: 200px;
   display: block;
 }
 a:hover{
-  background-color: yellowgreen;
+  background-color: rgba(0,0,0,0.3);
   border-radius: 10px;
-}
-div{
-  background-color: lightblue;
 }
 .anulador{
   clear: both;
