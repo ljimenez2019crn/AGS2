@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  font-family: helvetica, sans-serif;
+}
+li{
+  float: left;
+  list-style: none;
+  color: white;
+}
+#barra{
+  background-repeat: no-repeat;
+  background-position: 0;
+  height: 50px;
+  width: 100%;
+  float: left;
+  position: fixed;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#barra a:hover{
+  color: #FFF;
+}
+#icono{
+float: left;
+margin-right: 20px;
+margin-top: 10px;
+}
+#enllaç{
+  float: left;
+  color: white;
+  margin: 5px;
+  margin-top: 15px;
+}
+a{
+  text-decoration: none;
+  color: #CCC;
+}
+#contenedor{
+  padding-top: 50px;
+}
+h1{
+  font-size: 22px;
+  color: #FFF;
+}
+h2{
+  font-size: 14px;
+  color: #CCC
+}
+h3{
+  font-size: 11px;
+  color: #CCC;
+}
+.portada{
+  border-radius: 5px;
+}
+#contenido{
+  float: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+.anulador{
+  clear: both;
+}
