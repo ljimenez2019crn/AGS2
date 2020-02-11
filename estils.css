@@ -49,3 +49,16 @@ a:hover{
   background-image:url(img/a05.png);
   background-size: 100%;
 }
+#a06{
+  background-image:url(img/a06.png);
+  background-size: 100%;
+}
+#a07{
+  background-image:url(img/a07.png);
+  background-size: 100%;
+}
+#a08{
+  background-image:url(img/a08.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
