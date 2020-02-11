@@ -1,0 +1,159 @@
+body{
+	margin:0 auto;
+	padding: 0;
+	background-color: #FFF;
+}
+#contenedor{
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 90%;
+	margin-top: 30px;
+	border-radius: 20px;
+	background-color: black;
+}
+#tema{
+	padding: 15px;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+#chat{
+	width: 60%;
+	height: 200px;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: #CCC;
+}
+.tema{
+	background-color: #CCC;
+	width: 20%;
+	height: 200px;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 10px;
+	position: ;
+}
+
+.bocadillo{
+	width: 70%;
+	min-height: 2rem;
+	border-radius: 0.5rem; #DDD;
+	margin: 0.5rem 0.7rem;
+	transform: scale(2);
+}
+.principal{
+	width: 70%;
+	min-height: 4rem;
+	border-radius: 0.5rem;
+	box-shadow: -3px 2px 0px #DDD;
+	margin: 0.5rem 0;
+	transform: scale(2);
+	background-color: #CCC;
+}
+
+
+.izquierdo{
+	transform: scale(1,1);
+	background-color: #EEE;
+	opacity: %;
+}
+.derecho{
+	transform: scale(-1,1);
+	background-color: #7bd287;
+	float: right;
+	opacity: %;
+}
+
+.boton{
+	width: 2rem;
+	height: 2rem;
+	background-color: transparent;
+	clear: both;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 5.5rem;
+	border: solid 0.2rem #FFF;
+}
+
+
+#principal{
+  background-color: #FFF;
+}
+
+#default{
+  background-color: #CCC;
+}
+
+
+#mono{
+  background-color: #0066ff;
+}
+#mono .derecho{
+	background-color: #cce0ff;
+}
+
+
+#dark{
+  background-color: #38344C;
+}
+#dark .izquierdo{
+	background-color: #cce0ff;
+}
+#dark .derecho{
+	background-color: #0066ff;
+}
+
+
+#artic{
+  background-color: #EEEDEF;
+}
+#artic .izquierdo{
+	background-color: #cce0ff;
+}
+#artic .derecho{
+	background-color: #0066ff;
+}
+
+.bola{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 30px;
+}
+.anular{
+	display: none;
+	padding-bottom: 15px;
+	height: 4rem;
+	width: 170%;
+	display: flex;
+	justify-content: space-around;
+}
+.slider{
+	width: 100%;
+	height: 5rem;
+	overflow-x: scroll;
+	display: none;
+}
+.slider::-webkit-scrollbar{
+	display: none;
+}
+
+
+input[type=color]{
+	border-radius: ;
+}
+input[type=color]:focus{
+	-webkit-appearance: none;
+	outline: none;
+}
+input[type=color]::-webkit-color-swatch-wrapper{
+	border-radius: 50%;
+	padding: 0;
+}
+input[type=color]::-webkit-color-swatch{
+	border: none;
+	border-radius: 50%;
+}
