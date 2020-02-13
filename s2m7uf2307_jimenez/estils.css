@@ -7,7 +7,7 @@ body{
 	margin: 0 auto;
 	padding-top: 30px;
 	width: 90%;
-	margin-top: 30px;
+	margin-top: 15px;
 	border-radius: 20px;
 	background-color: black;
 }
@@ -29,7 +29,7 @@ body{
 .tema{
 	background-color: #CCC;
 	width: 20%;
-	height: 200px;
+	height: 180px;
 	border-radius: 10px;
 	display: inline-block;
 	margin: 10px;
@@ -37,7 +37,7 @@ body{
 }
 
 .bocadillo{
-	width: 70%;
+	width: 60%;
 	min-height: 2rem;
 	border-radius: 0.5rem; #DDD;
 	margin: 0.5rem 0.7rem;
@@ -73,7 +73,7 @@ body{
 	clear: both;
 	border-radius: 50%;
 	margin: 0 auto;
-	margin-top: 5.5rem;
+	margin-top: 4.7rem;
 	border: solid 0.2rem #FFF;
 }
 
@@ -117,8 +117,8 @@ body{
 }
 
 .bola{
-	width: 4rem;
-	height: 4rem;
+	width: 3.5rem;
+	height: 3.5rem;
 	border-radius: 50%;
 	display: inline-block;
 	margin: 0 30px;
