@@ -1,0 +1,139 @@
+.flor{
+  transform:scale(1);
+  background: ;
+  width: 205px;
+  height: 205px;
+  animation: rotacio 3s infinite linear;
+  transform-origin: center center;
+}
+.petal{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: green;
+  border-radius: 0 100px 0 100px;
+  transform: rotate(-0deg);
+  transform-origin: right bottom;
+  border: solid 2px white;
+  animation-name: aniflor;
+  animation-duration: 2s;
+  animation-delay: ;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+  /*
+  animation: aniflor 2s infinite alternate-reverse;
+  */
+}
+
+#p1{
+
+}
+#p2{
+  transform: rotate(30deg);
+}
+#p3{
+  transform: rotate(60deg);
+}
+#p4{
+transform: rotate(90deg);
+}
+#p5{
+transform: rotate(120deg);
+}
+#p6{
+transform: rotate(150deg);
+}
+#p7{
+transform: rotate(180deg);
+}
+#p8{
+transform: rotate(210deg);
+}
+#p9{
+transform: rotate(240deg);
+}
+#p10{
+transform: rotate(270deg);
+}
+#p11{
+transform: rotate(300deg);
+}
+#p12{
+transform: rotate(330deg);
+}
+#cor{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  top: 75px;
+  left: 75px;
+}
+@keyframes aniflor{
+  0% {
+    background:green;
+  }
+  50% {
+    background: pink;
+  }
+  100% {
+    background:red;
+  }
+}
+/*@keyframes rotacio{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+*/
+@keyframes latir {
+  0%{
+    transform: scale(0.5);
+  }
+  50%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(0.5);
+  }
+}
+.izquierda{
+  margin: 100px auto 100px 0;
+}
+.derecha{
+  margin: 100px 0 100px auto;
+}
+.centrada{
+  margin: 100px auto ;
+}
+#heart{
+  position:relative;
+  animation: latir 2s infinite;
+  background: ;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+.love1{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 50px 100px;
+
+}
+.love2{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(45deg);
+  transform-origin: 50px 100px;
+}

@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    background-color: #FFF;
+}
+.triangle {
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+
+  background-color: #FFC300;
+  clip-path: polygon(0% 0%, 100% 0%,0% 100%);
+  z-index: -500;
+}
+
+#logout{
+
+}
+.escollir{
+  width: 168px;
+  height: 168px;
+  position: relative;
+  margin: auto;
+  padding: 50px;
+}
+#añadir{
+width: 72px;
+height: 72px;
+position: relative;
+bottom: -700px;
+margin: auto;
+}
+.cuadrado{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 30px;
+  margin:auto;
+}
+#finalizar{
+  background-color: #56F065;
+  right: 100px;
+}
+#volver{
+  background-color: black;
+  left: 100px;
+}
